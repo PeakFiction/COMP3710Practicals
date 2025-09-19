@@ -1,6 +1,18 @@
-@"
+# venvs
 .venv/
 .venv312/
-Lab 2/artifacts/
+
+# datasets and archives
 Lab 2/data/
-"@ | Set-Content -Encoding UTF8 .gitignore
+*.tar
+*.tar.gz
+*.zip
+
+# model artifacts
+*.pt
+*.pth
+*.ckpt
+
+# caches
+__pycache__/
+.ipynb_checkpoints/
