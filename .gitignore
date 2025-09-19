@@ -1,4 +1,5 @@
 @"
 .venv/
 .venv312/
+./Lab 2/artifacts
 "@ | Set-Content -Encoding UTF8 .gitignore
